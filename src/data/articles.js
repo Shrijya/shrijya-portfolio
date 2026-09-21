@@ -45,27 +45,28 @@ function article_1() {
       <React.Fragment>
         <div className="article-content">
           <p>
-            This research focused on developing a deep learning model capable of colorizing SAR images,
-            which are traditionally grayscale and difficult to interpret. The model combines CNNs and GANs
-            to generate realistic color images.
+            This research focused on developing a deep learning model capable
+            of colorizing SAR images, which are traditionally grayscale and
+            difficult to interpret. The model combines CNNs and GANs to
+            generate realistic color images.
           </p>
 
           <img
             src="/Certificate.jpg"
-            alt="SAR Image Example"
+            alt=""
             className="research-image"
+            aria-hidden="true"
           />
 
           <p className="event-info">
-            📌 Presented at <strong>Eureka & Jidnyasa</strong> – National Level Paper Presentation
-            and Project Exhibition, 22 April 2025.
+            📌 Presented at <strong>Eureka & Jidnyasa</strong> – National Level
+            Paper Presentation and Project Exhibition, 22 April 2025.
           </p>
         </div>
       </React.Fragment>
     ),
   };
 }
-
 
 // Article: MLSA Creative Team Head Skills
 function article_2() {
@@ -100,9 +101,8 @@ function article_2() {
     body: (
       <React.Fragment>
         <div className="article-content">
-          <p>
-            Key responsibilities and skills gained during my tenure:
-          </p>
+          <p>Key responsibilities and skills gained during my tenure:</p>
+
           <ul className="skills-list">
             <li>Leadership and Team Management</li>
             <li>Organizing AI & ML Workshops</li>
@@ -119,4 +119,3 @@ function article_2() {
 const myArticles = [article_1, article_2];
 
 export default myArticles;
-
